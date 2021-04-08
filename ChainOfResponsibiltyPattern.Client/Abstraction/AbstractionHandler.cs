@@ -10,7 +10,7 @@ namespace ChainOfResponsibiltyPattern.Client.Chain
         private IHandler _nextHandler;
         public virtual object HandleRequest(object value, string name)
         {
-            if(this._nextHandler == null)
+            if(_nextHandler == null)
             {
                 return null;
             }
