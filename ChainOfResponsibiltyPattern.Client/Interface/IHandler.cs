@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ChainOfResponsibiltyPattern.Client.Interface
+﻿namespace ChainOfResponsibiltyPattern.Client.Interface
 {
     public interface IHandler
     {

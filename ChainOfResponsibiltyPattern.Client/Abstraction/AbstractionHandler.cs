@@ -1,7 +1,4 @@
 ﻿using ChainOfResponsibiltyPattern.Client.Interface;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ChainOfResponsibiltyPattern.Client.Chain
 {
@@ -20,7 +17,7 @@ namespace ChainOfResponsibiltyPattern.Client.Chain
         public IHandler SetNextHandler(IHandler handler)
         {
             _nextHandler = handler;
-            return handler;
+            return _nextHandler;
         }
     }
 }

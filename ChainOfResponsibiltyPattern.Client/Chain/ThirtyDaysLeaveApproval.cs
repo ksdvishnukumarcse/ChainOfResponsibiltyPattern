@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ChainOfResponsibiltyPattern.Client.Chain
+﻿namespace ChainOfResponsibiltyPattern.Client.Chain
 {
     public class ThirtyDaysLeaveApproval : AbstractionHandler
     {
